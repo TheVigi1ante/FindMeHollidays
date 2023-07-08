@@ -27,24 +27,24 @@ class MainActivity : AppCompatActivity() {
 
         button_l_t.setOnClickListener {
             if (ActivityCompat.checkSelfPermission(this,
-                            android.Manifest.permission.ACCESS_COARSE_LOCATION) ==
-                    PackageManager.PERMISSION_GRANTED &&
-                    ActivityCompat.checkSelfPermission(this,
-                            android.Manifest.permission.ACCESS_FINE_LOCATION)  ==
-                    PackageManager.PERMISSION_GRANTED) {
-                val wifi: WifiManager = applicationContext.getSystemService(WIFI_SERVICE) as WifiManager
-                if (wifi.isWifiEnabled == true) {
-                    val wifi_info: WifiInfo = wifi.connectionInfo
-                    val bssid: String = wifi_info.bssid
+                android.Manifest.permission.ACCESS_COARSE_LOCATION) ==
+                PackageManager.PERMISSION_GRANTED &&
+                ActivityCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)  ==
+                PackageManager.PERMISSION_GRANTED) {
+                    val wifi: WifiManager = applicationContext.getSystemService(WIFI_SERVICE) as WifiManager
+                    if (wifi.isWifiEnabled == true) {
+                        val wifi_info: WifiInfo = wifi.connectionInfo
+                        val bssid: String = wifi_info.bssid
 
-                    //val database: FirebaseDatabase = FirebaseDatabase.getInstance()
-                    //val myRef: DatabaseReference = database.getReference("BSSID")
-                    //myRef1.setValue(bssid.toUpperCase())
+                        //val database: FirebaseDatabase = FirebaseDatabase.getInstance()
+                        //val myRef: DatabaseReference = database.getReference("BSSID")
+                        //myRef1.setValue(bssid.toUpperCase())
 
-                    showDialogWindow1()
-                } else {
-                    showDialogWindow2()
-                }
+                        showDialogWindow1()
+                    } else {
+                        showDialogWindow2()
+                    }
             } else {
                 showDialogWindow3()
                 ActivityCompat.requestPermissions(this,
