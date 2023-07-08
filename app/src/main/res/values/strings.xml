@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FindMeHollidays</string>
+    <string name="todo">TODO!</string>
+    <string name="title">Внимание!</string>
+    <string name="message1">Недостаточно очков на балансе! Рекомендуем посмотреть рекламу и пройти опрос!</string>
+    <string name="message2">Для поиска по карте подключитесь к WI-FI!</string>
+    <string name="message3">Приложению необходим доступ к местоположению для поиска по карте!</string>
+    <string name="message4">Реклама сейчас недоступна! Рекомендуем пройти опрос!</string>
+    <string name="OK">OK</string>
+    <string name="rjotrjoht">Мы собираем статистику о том какие мероприятия посещают люди в разных частях России.</string>
+    <string name="gui34go">Я согласен на персональную обработку данных.</string>
+    <string name="jiojtrpo">Начать</string>
+    <string name="dffwe">Нужно принять условие на обработку персональных данных!</string>
+    <string name="ffguayn">Укажите ваше ФИО.</string>
+    <string name="jisrgjip">Фамилия</string>
+    <string name="giogji">Далее</string>
+    <string name="aaiohaiod">Имя</string>
+    <string name="iofiodio">Отчество</string>
+    <string name="vojsfv">00:00:0000</string>
+    <string name="ffgfgfn">Укажите дату рождения.</string>
+    <string name="hgdghhd">Укажите ваш город.</string>
+    <string name="vgiogпрojsfv">Название города</string>
+    <string name="fioeurewur">Укажите все мероприятия, которые вы посещаете.</string>
+    <string name="iotueu">Введите через запятую</string>
+    <string name="orfgfo">Укажите ваш адрес.</string>
+    <string name="jiip">Улица</string>
+    <string name="aoiod">Дом</string>
+    <string name="jjdfujgd">Квартира</string>
+    <string name="ohdsf">Закончить опрос</string>
+    <string name="qwdqwf">"Cпасибо за ваши ответ! Мы проверим их втечение нескольких дней. "</string>
+</resources>

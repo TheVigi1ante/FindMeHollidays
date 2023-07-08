@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/balance_fake"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/balance_fake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/balance_fake"
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/button_l_t"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/button_l_t"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/map"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/button_fake"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/button_fake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_l_t"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/button_anketka"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/button_anketka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_fake"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/background_blue1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/background_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_anketka"
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/background_blue2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/background_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/background_blue1"
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/background_blue3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/background_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/background_blue2"
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
+</androidx.constraintlayout.widget.ConstraintLayout>

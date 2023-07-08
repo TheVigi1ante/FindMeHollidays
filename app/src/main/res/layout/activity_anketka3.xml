@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".com.example.findmehollidays.Anketka3" >
+
+    <TextView
+        android:id="@+id/kiggdfuvs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:text="@string/ffgfgfn"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/wevgjcsogoj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/vojsfv"
+        app:layout_constraintTop_toBottomOf="@id/kiggdfuvs"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ginbfghgi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/giogji"
+        app:layout_constraintTop_toBottomOf="@id/wevgjcsogoj"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

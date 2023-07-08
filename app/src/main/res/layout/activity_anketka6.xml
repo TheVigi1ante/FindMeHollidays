@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".Anketka6" >
+
+    <TextView
+        android:id="@+id/igp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:text="@string/orfgfo"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/wsaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/jiip"
+        app:layout_constraintTop_toBottomOf="@id/igp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ogrokj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/aoiod"
+        app:layout_constraintTop_toBottomOf="@id/wsaq"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/wjyd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/jjdfujgd"
+        app:layout_constraintTop_toBottomOf="@id/ogrokj"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ghgi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ohdsf"
+        app:layout_constraintTop_toBottomOf="@id/wjyd"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

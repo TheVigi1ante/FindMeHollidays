@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".Anketka1" >
+
+   <TextView
+       android:id="@+id/igup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/blue"
+       android:text="@string/rjotrjoht"
+       android:textSize="24dp"
+       tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ffccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:text="@string/gui34go"
+        app:layout_constraintTop_toBottomOf="@id/igup"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/gingi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jiojtrpo"
+        app:layout_constraintTop_toBottomOf="@id/ffccc"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
