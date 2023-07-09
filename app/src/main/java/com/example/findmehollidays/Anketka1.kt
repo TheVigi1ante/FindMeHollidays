@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.CheckBox
 import androidx.appcompat.app.AlertDialog
-import com.example.findmehollidays.com.example.findmehollidays.Anketka2
 
 class Anketka1 : AppCompatActivity() {
     private lateinit var button: Button
