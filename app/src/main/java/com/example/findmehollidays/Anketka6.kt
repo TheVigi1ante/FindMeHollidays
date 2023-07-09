@@ -1,4 +1,4 @@
-package com.example.findmehollidays
+com.example.findmehollidays
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -28,9 +28,9 @@ class Anketka6 : AppCompatActivity() {
             //val myRef1: DatabaseReference = database.getReference("Улица")
             //val myRef2: DatabaseReference = database.getReference("Дом")
             //val myRef3: DatabaseReference = database.getReference("Квартира")
-            //myRef1.setValue(editText1.text)
-            //myRef2.setValue(editText2.text)
-            //myRef3.setValue(editText3.text)
+            //myRef1.setValue(editText1.text.toString())
+            //myRef2.setValue(editText2.text.toString())
+            //myRef3.setValue(editText3.text.toString())
 
             val intent: Intent = Intent(this, Anketka7::class.java)
             startActivity(intent)
