@@ -22,7 +22,7 @@ class Anketka4 : AppCompatActivity() {
         button.setOnClickListener {
             //val database: FirebaseDatabase = FirebaseDatabase.getInstance()
             //val myRef: DatabaseReference = database.getReference("Город")
-            //myRef.setValue(editText1.text)
+            //myRef.setValue(editText.text)
 
             val intent: Intent = Intent(this, Anketka5::class.java)
             startActivity(intent)
