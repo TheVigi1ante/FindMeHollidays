@@ -1,4 +1,4 @@
-package com.example.findmehollidays
+com.example.findmehollidays
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -22,7 +22,7 @@ class Anketka4 : AppCompatActivity() {
         button.setOnClickListener {
             //val database: FirebaseDatabase = FirebaseDatabase.getInstance()
             //val myRef: DatabaseReference = database.getReference("Город")
-            //myRef.setValue(editText.text)
+            //myRef.setValue(editText.text.toString())
 
             val intent: Intent = Intent(this, Anketka5::class.java)
             startActivity(intent)
