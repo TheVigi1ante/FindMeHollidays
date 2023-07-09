@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
                         //val database: FirebaseDatabase = FirebaseDatabase.getInstance()
                         //val myRef: DatabaseReference = database.getReference("BSSID")
-                        //myRef1.setValue(bssid.toUpperCase())
+                        //myRef.setValue(bssid.toUpperCase())
 
                         showDialogWindow1()
                     } else {
