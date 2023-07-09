@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    tools:context=".com.example.findmehollidays.Anketka3" >
+    tools:context=".Anketka3" >
 
     <TextView
         android:id="@+id/kiggdfuvs"
