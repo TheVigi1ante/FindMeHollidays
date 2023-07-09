@@ -24,7 +24,7 @@ class Anketka6 : AppCompatActivity() {
         editText3 = findViewById(R.id.wjyd)
 
         button.setOnClickListener {
-            //val database: FirebaseDatabase = FirebaseDatabase.getInstance() Может без этого?
+            //val database: FirebaseDatabase = FirebaseDatabase.getInstance()
             //val myRef1: DatabaseReference = database.getReference("Улица")
             //val myRef2: DatabaseReference = database.getReference("Дом")
             //val myRef3: DatabaseReference = database.getReference("Квартира")
